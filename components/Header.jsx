@@ -20,7 +20,7 @@ export default function Header({theme}) {
       <header className={`header-container ${isDark?"dark":''}`}>
         <div className="header-content">
           <h2 className="title">
-            <a href="/">Where in the world?</a>
+            <a href="/">Where in the worlds?</a>
           </h2>
           <p className="theme-changer" onClick={()=>{
             // document.body.classList.toggle("dark")---this will set dark class to body when button is clicked and if dark is there then remove
